@@ -1,0 +1,253 @@
+/* Responsive ==> */
+
+@media (max-width: 767px) {
+    .sub-header{
+        display: none;
+    }
+    .navbar{
+        padding: 10px;
+    }
+    .nav-item{
+        margin-left: 0 !important;
+    }
+    .banner-area{
+        padding: 40px 0px;
+        background-size: cover;
+    }
+    .banner-area-content h1{
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .banner-area-content p{
+        margin: 20px 0px;
+    }
+    .banner-area-content h2{
+        font-size: 18px;
+    }
+    footer,
+    .team-area,
+    .testimonial-area,
+    .services-area,
+    .feature-area{
+        padding: 40px 0px;
+    }
+    .feature-area-heading{
+        font-size: 22px;
+    }
+    .feature-area-lead{
+        font-size: 18px;
+    }
+    .feature-area-text{
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .feature-content p{
+        line-height: 24px;
+    }
+    .services-area .section-lead {
+        margin-bottom: 45px;
+    }
+    .services-card .card-text{
+        text-align: center;
+    }
+    .section-heading{
+        font-size: 26px;
+    }
+    .section-lead{
+        font-size: 14px;
+    }
+    .testimonials{
+        margin-top: 30px;
+    }
+    .testimonials-author{
+        margin-bottom: 20px;
+    }
+    .testimonials-text p{
+        font-size: 16px;
+    }
+    .testimonials-arrow .prev-arrow{
+        left: 35px;
+    }
+    .testimonials-arrow .next-arrow{
+        right: 35px;
+    }
+    .testimonials-info{
+        margin-top: 28px;
+    }
+    .testimonials-info p{
+        font-size: 14px;
+    }
+    .testimonials-info{
+        padding: 20px 0px;
+    }
+    .team-area .section-lead{
+        margin-bottom: 30px;
+    }
+    .footer-wizard h4{
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+    .copyright-area{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    footer{
+        padding-bottom: 20px;
+    }
+    .feature-item-image{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .feature-item-image{
+        text-align: center;
+    }
+    .sub-header{
+        display: none;
+    }
+    .navbar{
+        padding: 10px;
+    }
+    .nav-item{
+        margin-left: 0 !important;
+    }
+    .banner-area{
+        padding: 40px 0px;
+        background-size: cover;
+    }
+    .banner-area-content h1{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .banner-area-content p{
+        margin: 20px 0px;
+    }
+    .banner-area-content h2{
+        font-size: 20px;
+    }
+    footer,
+    .team-area,
+    .testimonial-area,
+    .services-area,
+    .feature-area{
+        padding: 45px 0px;
+    }
+    .feature-area-heading{
+        font-size: 22px;
+    }
+    .feature-area-lead{
+        font-size: 18px;
+    }
+    .feature-area-text{
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .feature-content p{
+        line-height: 24px;
+    }
+    .services-area .section-lead {
+        margin-bottom: 45px;
+    }
+    .services-card .card-text{
+        text-align: center;
+    }
+    .section-heading{
+        font-size: 26px;
+    }
+    .section-lead{
+        font-size: 14px;
+    }
+    .testimonials{
+        margin-top: 30px;
+    }
+    .testimonials-author{
+        margin-bottom: 20px;
+    }
+    .testimonials-text p{
+        font-size: 16px;
+    }
+    .testimonials-arrow .prev-arrow{
+        left: 215px;
+    }
+    .testimonials-arrow .next-arrow{
+        right: 215px;
+    }
+    .testimonials-info{
+        margin-top: 28px;
+    }
+    .testimonials-info p{
+        font-size: 14px;
+    }
+    .testimonials-info{
+        padding: 20px 0px;
+    }
+    .team-area .section-lead{
+        margin-bottom: 30px;
+    }
+    .footer-wizard h4{
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+    .copyright-area{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    footer{
+        padding-bottom: 20px;
+    }
+    .feature-item-image{
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navbar{
+        padding: 20px 0px;
+    } 
+    .banner-area{
+        padding: 80px 0px;
+    }
+    .banner-area-content h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .banner-area-content p{
+        margin: 20px 0px;
+    }
+    .banner-area-content h2{
+        font-size: 24px;
+    }
+    .services-card .card-text{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .services-card .card-title{
+        font-size: 16px;
+    }
+    footer,
+    .team-area,
+    .testimonial-area,
+    .services-area,
+    .feature-area{
+        padding: 50px 0px;
+    }
+    .services-area .section-lead{
+        margin-bottom: 50px;
+    }
+    .testimonials{
+        margin-top: 40px;
+    }
+    .testimonials-arrow .prev-arrow{
+        left: 350px;
+    }
+    .testimonials-arrow .next-arrow{
+        right: 350px;
+    }
+    .testimonials-text p{
+        font-size: 16px;
+    }
+    .team-area .section-lead{
+        margin-bottom: 40px;
+    }
+}

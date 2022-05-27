@@ -1,0 +1,324 @@
+/* Sub Header Starts Here */
+.sub-header{
+    padding: 15px 0px;
+    background-image: url("../images/top-header/bg.jpg");
+    background-repeat: no-repeat;
+}
+.sub-header-content p{
+    color: #f2f2f2;
+    margin-bottom: 0;
+}
+.sub-header-content p span{
+    color: #8b8a8f;
+}
+/* Sub Header Ends Here */
+
+/* Header Starts Here */
+.navbar{
+    padding: 25px 0px;
+}
+.nav-item{
+    margin-left: 8px;
+}
+.nav-link{
+    color: #333232 !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #eb5020 !important;
+}
+/* Header Ends Here */
+
+/* Banner Starts Here */
+.accent-color{
+    color: #eb5020;
+}
+.accent-bg-color{
+    background-color: #eb5020;
+}
+.banner-area{
+    padding-top: 215px;
+    padding-bottom: 275px;
+    background-image: url("../images/banner/01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-area-content h1{
+    color: #0b0b0b;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 0;
+}
+
+.banner-area-content h2{
+    max-width: 370px;
+    padding: 15px 0px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.banner-area-content p{
+    margin: 30px 0px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7d7d7d;
+    font-weight: 500;
+}
+/* Banner Ends Here */
+
+/* Feature Area Starts Here */
+.feature-area{
+    padding: 85px 0px;
+}
+.feature-area-heading{
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.feature-area-lead{
+    color: #4b4a4a;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.feature-area-text{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    line-height: 25px;
+}
+.feature-content h4{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.feature-content p{
+    color: #9c9c9c;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+/* Feature Area Ends Here */
+
+/* Services Area Starts Here */
+.services-area{
+    padding: 85px 0px;
+    background-image: url("../images/banner/02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.services-area .section-lead{
+    margin-bottom: 65px;
+}
+.section-heading{
+    font-size: 34px;
+    color: #333232;
+    margin-bottom: 0;
+}
+.section-lead{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: #333232;
+}
+.team-area-card,
+.services-card{
+    transform: scale(1);
+    transition: 0.2s;
+}
+.team-area-card:hover,
+.services-card:hover{
+    transform: scale(1.1);
+}
+.services-card .card-title{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bolder;
+    color: #eb5020;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+}
+.services-card .card-title::after{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0px;
+    height: 1px;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+.services-card .card-text{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: lighter;
+    color: #686868;
+}
+/* Services Area Ends Here */
+
+/* Testimonial Area Starts Here */
+.testimonial-area{
+    padding: 80px 0px;
+    background-color: #eb5020;
+}
+.testimonials{
+    margin-top: 70px;
+    position: relative;
+}
+
+.testimonials-arrow .prev-arrow,
+.testimonials-arrow .next-arrow{
+    position: absolute;
+    display: inline-block;
+    top: 60px;
+}
+.testimonials-arrow .prev-arrow{
+    left: 450px;
+}
+.testimonials-arrow .next-arrow{
+    right: 450px;
+}
+.testimonials-author{
+    margin-bottom: 40px;
+}
+.testimonials-text p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.testimonials-info{
+    background-color: white;
+    text-align: center;
+    padding: 25px 0px;
+    max-width: 500px;
+    margin-top: 35px;
+}
+.testimonials-info h4{
+    color: #333232;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.testimonials-info img{
+    margin: 15px 0px;
+}
+.testimonials-info p{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #4b4a4a;
+}
+/* Testimonial Area Ends Here */
+
+/* Team Area Starts Here */
+.team-area{
+    padding: 60px 0px;
+}
+.team-area .section-lead{
+    margin-bottom: 60px;
+}
+.team-area-card .card-title{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0;
+}
+.team-area-card .card-text{
+    text-align: center;
+    margin: 12px 0px;
+    color: #c2c2c2;
+    font-weight: 500;
+    font-size: 16px;
+}
+.team-area-card-bottom a{
+    color: black;
+    display: inline-block;
+    transition: 0.3s all linear;
+}
+.team-area-card-bottom a:hover{
+    color: #eb5020;
+}
+/* Team Area Ends Here */
+
+/* Footer Starts Here */
+footer{
+    padding: 100px 0px;
+    padding-bottom: 50px;
+    background-image: url("../images/footer/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-wizard h4{
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.footer-wizard p{
+    color: #979797;
+    line-height: 22px;
+    font-size: 13px;
+}
+.btn-warning{
+    background-color: #eb5020;
+    border-color: #eb5020;
+    color: white;
+    font-weight: 600;
+}
+.btn-warning:hover{
+    background-color: #eb5020;
+    border-color: #eb5020;
+    color: white;
+}
+.form-control:focus{
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+.social-links a{
+    margin-right: 6px;
+    color: #4b4a4a;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: 0.2s all linear;
+    border: 1px solid #fff;
+}
+.social-links a:hover{
+    background-color: #4b4a4a;
+    color: #eb5020;
+    transform: scale(1.1);
+}
+.footer-contact{
+    position: relative;
+}
+.footer-contact::after{
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    left: 0px;
+    height: 1px;
+    width: 100%;
+    background-color: #686868;
+}
+.copyright-area{
+    margin-top: 80px;
+    border-top: 1px solid #979797;
+}
+.copyright-area p{
+    font-size: 14px;
+}
+.copyright-area-links{
+    font-size: 14px;
+    transition: 0.3s all linear;
+}
+.copyright-area-links:hover{
+    color: #eb5020 !important;
+}
+/* Footer Ends Here */
